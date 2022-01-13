@@ -1,6 +1,8 @@
 .networks__link {
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
+  background-color: #fea5bb;
+  border-radius: 50%;
   fill: purple;
 }
 .networks__link:hover {
@@ -8,6 +10,6 @@
 }
 
 .networks__icon {
-  width: 32px;
-  height: 32px;
+  width: 18px;
+  height: 18px;
 }
