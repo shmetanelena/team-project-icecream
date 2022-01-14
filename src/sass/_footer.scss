@@ -25,6 +25,16 @@ a {
   text-decoration: none;
 }
 //********** End Resset *********************//
+
+//********** Footer *************************//
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 3px solid springgreen; */
+}
+//********** End Footer *********************//
 //********** Footer__container *********************//
 .suptitle {
   font-size: 18px;
@@ -41,8 +51,12 @@ a {
 //********** End Footer__container *****************//
 
 //********** Networks ***********************//
+.networks {
+  display: flex;
+  justify-content: end;
+}
 .networks__item {
-  margin-bottom: 28px;
+  margin-left: 28px;
 }
 .networks__link {
   display: flex;
@@ -70,3 +84,14 @@ a {
 }
 
 //********** END Networks ***********************//
+
+//********** Contact-free ***************************//
+.contact-free__text {
+  color: #000000;
+  font-family: 'DM Sans';
+}
+
+.contact-free__tel {
+  color: #d41443;
+}
+//********** END Contact-free ***********************//
